@@ -1,7 +1,6 @@
 <?php
 
 // Step 1: Define the OpenAI API key
-$apiKey = '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'; 
 
 // Step 2: Fetch precomputed embeddings from the database
 function getPrecomputedEmbeddings() {

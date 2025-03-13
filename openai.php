@@ -5,8 +5,6 @@
 // error_reporting(E_ALL);
 
 // // Define the OpenAI API key
-// $apiKey = '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'; 
-
 // // Fetch precomputed embeddings from the database
 // function getPrecomputedEmbeddings() {
 //     $conn = new mysqli('localhost', 'root', '', 'chat_bot_db');
@@ -213,7 +211,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$apiKey = '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'; // Replace with your actual OpenAI key
 
 function getPrecomputedEmbeddings() {
     $conn = new mysqli('localhost', 'root', '', 'chat_bot_db');
